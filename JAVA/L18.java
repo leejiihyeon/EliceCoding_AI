@@ -10,10 +10,9 @@ public class L18 {
 		while(i<=10) {
 			int j=1;
 			while(j<=i);
-			System.out.println("1부터 10까지의 합 : "+sum);
 			j++;
 		}
-		System.out.println();
+		System.out.println(+sum);
 		i++;
 	}
 }
