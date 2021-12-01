@@ -21,15 +21,11 @@ public class L21 {
 		
 		System.out.println("평균 점수(실수형) : "+double_sum);
 		
-		
-		
 		//평균 점수 구하기(정수형)
 		int int_sum=0;
 		int_sum=(kor+eng+math)/3;
 		
 		System.out.println("평균점수(정수형) : "+int_sum);
 		
-		
 	}
-
 }
