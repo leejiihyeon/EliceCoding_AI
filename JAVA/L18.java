@@ -11,8 +11,9 @@ public class L18 {
 			int j=1;
 			while(j<=i);
 			j++;
+			System.out.println("1부터 10까지의 합 : "+sum);
 		}
-		System.out.println(+sum);
+		System.out.println();
 		i++;
 	}
 }
