@@ -22,7 +22,5 @@ public class L29 {
 		for(; i>=0 ; i--) {
 			System.out.print(bin[i]);
 		}
-
 	}
-
 }
