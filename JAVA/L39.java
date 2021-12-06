@@ -15,6 +15,6 @@ public class L39 {
 		char c1=0x0041; //16진수
 		
 		System.out.println(var5);
+		
 	}
-
 }
