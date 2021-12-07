@@ -3,8 +3,14 @@ package JAVA;
 public class L47 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+/*
+-자동 타입 변환 : 자동으로 타입이 변환되는 것을 말합니다. 값의 허용 범위가 작은 타입이 허용 범위가 큰 타입으로 저장될 때 발생합니다.
+-강제 타입 변환 : 강제로 타입을 변환하는 것을 말합니다. 값의 허용 범위가 큰 타입을 허용 범위가 작은 타입으로 쪼개어서 저장하는 것을 말합니다.
+-문자열 결합 연산 : 문자열과 + 연산을 하면 다른 피연산자도 문자열로 변환되어 문자열 결합이 일어납니다.
+-Integer.parselnt() : 문자열을 정수 int 타입으로 변환합니다.
+-Double.parseDouble() : 문자열을 실수 double 타입으로 변환합니다.
+*/
 
+		
 	}
-
 }
