@@ -22,5 +22,4 @@ public class L56 {
 		System.out.println("str4 : " + str4);
 		
 	}
-
 }
