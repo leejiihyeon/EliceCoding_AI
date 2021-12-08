@@ -8,7 +8,7 @@ public class L54 {
 		int y = 2;
 		double result = (double) x/y;
 		System.out.println(result);
-		
+
 		
 	}
 }
