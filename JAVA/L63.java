@@ -10,8 +10,5 @@ public class L63 {
 		System.out.printf("상품의 가격:%-6d\n", value);
 		System.out.printf("상품의 가격:%06d\n", value);
 		
-		
-		
 	}
-
 }
