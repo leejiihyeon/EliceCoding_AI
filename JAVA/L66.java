@@ -6,7 +6,6 @@ public class L66 {
 		
 		int keyCode;
 		
-		
 		while(true) {
 			keyCode = System.in.read();
 			System.out.println("keyCode : " + keyCode);
