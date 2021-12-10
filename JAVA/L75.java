@@ -12,5 +12,4 @@ public class L75 {
 		System.out.println(result);
 		
 	}
-
 }
