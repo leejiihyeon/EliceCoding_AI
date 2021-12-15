@@ -4,7 +4,7 @@ public class L86 {
 
 	public static void main(String[] args) {
 
-		System.out.println("while문 - 구구단");
+		System.out.println("while문을 이용한 구구단 만들기");
 		
 		int i=1;
 		while(i<=9) {
