@@ -9,16 +9,6 @@ String=>byte
 String str = "10";
 byte value = Byte.parseByte(str);		
 */
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 }
