@@ -5,5 +5,4 @@ public class L92 {
 		
 	}
 
-
 }
