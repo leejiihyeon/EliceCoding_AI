@@ -10,7 +10,6 @@ public class L89 {
 		//1부터 45중에 랜덤 변수 생성하기
 		Random random = new Random();
 		
-		
 		//0부터 44까지 랜덤 변수 생성
 		int number = random.nextInt(45);
 		System.out.println("Random number : "+ number);
