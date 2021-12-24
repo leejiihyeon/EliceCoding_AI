@@ -6,5 +6,4 @@ public class L98 {
 		// TODO Auto-generated method stub
 
 	}
-
 }
