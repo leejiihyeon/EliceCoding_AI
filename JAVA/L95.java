@@ -10,6 +10,6 @@ public class L95 {
 		for(int i=1; i<=1000 ; i++) {
 			sum+=i;
 		}
-		System.out.println(sum);
+		System.out.println("1부터 1000까지의 합 : "+sum);
 	}
 }
