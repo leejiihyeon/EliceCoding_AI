@@ -1,25 +1,28 @@
-package cfr;
+package edu.multi.boot1;
 
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 
-// 네이버 얼굴인식 API 예제(유명인 닮은 정도)
-// main-java application
-// main + @SpringBootA... - spring boot app
-// controller - run on sever - 브라우저 url 입력
-public class APIExamFace {
+// 네이버 얼굴인식 API 예제
+// main-java application 
+//main + @SpringBootA... - spring boot app
+//controller - run on server - 브라우저 url 입력
 
+public class APIExamFace {
+//java application main 선언부 규칙
+	//FaceService - 이미지파일명 매개변수/String 리턴타입
     public static void main(String[] args) {
 
         StringBuffer reqStr = new StringBuffer();
-        String clientId = "c5yrs0p1qt";//애플리케이션 클라이언트 아이디값";
-        String clientSecret = "JrMkw5U2S5KBOZu1cI4mwr3lO0TvGzmizs6jAc7v";//애플리케이션 클라이언트 시크릿값";
+        String clientId = "qm0tu55p7u";//애플리케이션 클라이언트 아이디값";
+        String clientSecret = "9OwFiRPEE00KkdxG0C4vTRME5BOWlKuOTwVpLznM";//애플리케이션 클라이언트 시크릿값";
 
         try {
             String paramName = "image"; // 파라미터명은 image로 지정
-            String imgFile = "C:\\Users\\ASUS\\OneDrive\\바탕 화면\\STUDY\\ai_images\\ai_images/kimbab.jpg";
+            //1명 사진 , 2명 사진, 동물 사진, 사물 사진
+            String imgFile = "C:/Users/student/Desktop/ai_images/kimbab.jpg";//2mb초과(네이버사진크기-2mb미만제한)
             File uploadFile = new File(imgFile);
             String apiURL = "https://naveropenapi.apigw.ntruss.com/vision/v1/celebrity"; // 유명인 얼굴 인식
             URL url = new URL(apiURL);
