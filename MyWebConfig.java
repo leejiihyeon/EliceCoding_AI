@@ -1,4 +1,4 @@
-package edu.multi.boot;
+package edu.multi.boot1;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -15,11 +15,10 @@ public class MyWebConfig implements WebMvcConfigurer {
 		.addResourceLocations("file:///c:/upload/");
 		registry
 		.addResourceHandler("/naverimages/**")
-		.addResourceLocations("file:///C:\\Users\\ASUS\\OneDrive\\바탕 화면\\STUDY\\ai_images\\ai_images");
-		
+		.addResourceLocations("file:///C:/Users/student/Desktop/ai_images/");
 		
 	}
 	
-//http://localhost;8080/upload/파일목록
-//	http://localhost;8080/naverimages
+//1024byte -> 1kb 
+//	1024kb -> 1mb
 }
