@@ -11,12 +11,12 @@ public class APIExamPose {
     public static void main(String[] args) {
 
         StringBuffer reqStr = new StringBuffer();
-        String clientId = "c5yrs0p1qt";//애플리케이션 클라이언트 아이디값";
-        String clientSecret = "JrMkw5U2S5KBOZu1cI4mwr3lO0TvGzmizs6jAc7v";//애플리케이션 클라이언트 시크릿값";
+        String clientId = "tf9vrk4ekg";//애플리케이션 클라이언트 아이디값";
+        String clientSecret = "lQSJjr9OHAIiKhXTtMjY3Vbcib4E2lmyonXWG4oz";//애플리케이션 클라이언트 시크릿값";
 
         try {
             String paramName = "image"; // 파라미터명은 image로 지정
-            String imgFile = "C:\\Users\\ASUS\\OneDrive\\바탕 화면\\STUDY\\ai_images\\ai_images/yuna5.jpg";
+            String imgFile = "C:\\Users\\student\\Desktop\\ai_images\\yuna5.jpg";
             File uploadFile = new File(imgFile);
             String apiURL = "https://naveropenapi.apigw.ntruss.com/vision-pose/v1/estimate"; // 사람 인식
             URL url = new URL(apiURL);
@@ -74,3 +74,4 @@ public class APIExamPose {
         }
     }
 }
+
