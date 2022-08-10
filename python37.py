@@ -23,4 +23,4 @@ answer4 = matrix[ [ 1 ] ] # 두번째 행의 인덱스는 1입니다.
 print(answer1)
 print(answer2)
 print(answer3)
-print(answer4)
+print(answer4) 
